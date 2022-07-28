@@ -11,5 +11,5 @@ function getRelatedEmployees(managerId) {
   const employeesList = data.employees.filter((manager) => manager.managers.includes(managerId));
   return employeesList.map((element) => `${element.firstName} ${element.lastName}`);
 }
-console.log(getRelatedEmployees('9e7d4524-363c-416a-8759-8aa7e50c0992'));
+// console.log(getRelatedEmployees('9e7d4524-363c-416a-8759-8aa7e50c0992'));
 module.exports = { isManager, getRelatedEmployees };
