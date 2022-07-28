@@ -19,6 +19,6 @@ function countAnimals(animal) {
 
 // console.log(countAnimals());
 // console.log(countAnimals({ specie: 'lions' }));
-console.log(countAnimals({ specie: 'elephants' }));
+// console.log(countAnimals({ specie: 'elephants'}));
 
 module.exports = countAnimals;
